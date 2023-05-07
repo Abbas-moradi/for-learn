@@ -5,7 +5,6 @@ class User:
     def __init__(self, name, phone, password, email, location=None):
         self.name = name
         self.phone = phone
-        # self.email = self.checker(email)
         self._email = email
         self._password = password
         self.location = location
