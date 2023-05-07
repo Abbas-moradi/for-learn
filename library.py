@@ -30,12 +30,7 @@ class User:
                 self._password = password
         else:
             raise ValueError("Sorry your password length is low")
-    #
-    # def checker(self, email):
-    #     if '@gmail.com' in email:
-    #         return email
-    #     raise ValueError('')
-
+ 
     @property
     def email(self):
         return self._email
