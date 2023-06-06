@@ -36,7 +36,7 @@ class User:
 
     @email.setter
     def email(self, email1):
-        if '@gmail.com' not in email1:
+        if "@gmail.com" not in email1:
             raise ValueError('wrong email format')
         else:
             self._email = email1
